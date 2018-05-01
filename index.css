@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Questrial";
-    src: local("Questrial-Regular.ttf") format("ttf");
-        }
+
 body{
     background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("doodles/doodles.png");
     background-image: -webkit-linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("doodles/doodles.png");
@@ -332,6 +329,7 @@ bottom: 120px;
     display: -ms-flex;
     flex-flow: column; 
     -webkit-flex-flow: column; 
+    -moz-flex-flow: column;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
