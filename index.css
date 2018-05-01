@@ -61,7 +61,7 @@ header{
 .menucontent a:hover {background-color: #ddd ;}
 .menuicon:hover .menucontent { display: block ;}
 .headmenu{
-    font-size: 2vw;
+    font-size: 1.5vw;
     list-style-type: none;
     width: 100%;
     margin: 0;
@@ -84,8 +84,8 @@ a.menu {
 li.bsc:nth-child(1){float: left;
   padding: 0px 0px !important;}
 .symbol{
-  width: 3vw;
-  height: 3vw;
+  width: 2vw;
+  height: 2vw;
   padding-left: 10px;
   padding-right: 10px;
   
