@@ -391,14 +391,37 @@ bottom: 120px;
     text-align: justify;
 }
 .A{
-    background-image:linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.3)),  url("landscape__1____forest_mountain_by_ncoll36-daxsdd5.jpg");
-    background-image:-webkit-linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.3)),  url("landscape__1____forest_mountain_by_ncoll36-daxsdd5.jpg");
-    background-image:-moz-linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.3)),  url("landscape__1____forest_mountain_by_ncoll36-daxsdd5.jpg");
-    background-image:-o-linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.3)),  url("landscape__1____forest_mountain_by_ncoll36-daxsdd5.jpg");
     background-position: center;
     background-size: cover;
+    animation: example2 5s linear 0s infinite alternate;  
+    -webkit-animation: example2 5s linear 0s infinite alternate;
+    -moz-animation: example2 5s linear 0s infinite alternate;
+    -o-animation: example2 5s linear 0s infinite alternate;
 }
-
+@keyframes example2{
+    from{background-image: url("sigma.jpg");
+        color: black;}
+    to{background-image: url("sigma2.jpg");
+        color: white;}
+}
+@-webkit-keyframes example2{
+    from{background-image:  url("sigma.jpg");
+        color: black;}
+    to{background-image:url("sigma2.jpg");
+        color: white;}
+}
+@-moz-keyframes example2{
+    from{background-image: url("sigma.jpg");
+        color: black;}
+    to{background-image:url("sigma2.jpg");
+        color: white;}
+}
+@-o-keyframes example2{
+    from{background-image: url("sigma.jpg");
+        color: black;}
+    to{background-image: url("sigma2.jpg");
+        color: white;}
+}
 @media screen and (max-width: 650px){
     .am1{
         font-size: 15px;
