@@ -14,14 +14,32 @@ body{
 }
 header{
     
-    background-image: url("setting_sun_by_reullethollow-dbylmhw.png");
+    /*background-image: url("setting_sun_by_reullethollow-dbylmhw.png");*/
     
     height: 100vh;
     background-size: cover;
     background-position: center;
+    animation: example 3s linear 0s infinite alternate;  
+    -webkit-animation: example 3s linear 0s infinite alternate;
+    -moz-animation: example 3s linear 0s infinite alternate;
+    -o-animation: example 3s linear 0s infinite alternate;
     
-    
-   
+}
+@keyframes example{
+    from{background-image: url("setting_sun_by_reullethollow-dbylmhw.png");}
+    to{background-image:url("landscape__3____desert_by_ncoll36-daxxv4f.jpg");}
+}
+@-webkit-keyframes example{
+    from{background-image: url("setting_sun_by_reullethollow-dbylmhw.png");}
+    to{background-image:url("landscape__3____desert_by_ncoll36-daxxv4f.jpg");}
+}
+@-moz-keyframes example{
+    from{background-image: url("setting_sun_by_reullethollow-dbylmhw.png");}
+    to{background-image:url("landscape__3____desert_by_ncoll36-daxxv4f.jpg");}
+}
+@-o-keyframes example{
+    from{background-image: url("setting_sun_by_reullethollow-dbylmhw.png");}
+    to{background-image:url("landscape__3____desert_by_ncoll36-daxxv4f.jpg");}
 }
 /* over head menu*/
 .list{
