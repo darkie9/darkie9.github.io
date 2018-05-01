@@ -19,10 +19,10 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    animation: example 3s linear 0s infinite alternate;  
-    -webkit-animation: example 3s linear 0s infinite alternate;
-    -moz-animation: example 3s linear 0s infinite alternate;
-    -o-animation: example 3s linear 0s infinite alternate;
+    animation: example 5s linear 0s infinite alternate;  
+    -webkit-animation: example 5s linear 0s infinite alternate;
+    -moz-animation: example 5s linear 0s infinite alternate;
+    -o-animation: example 5s linear 0s infinite alternate;
     
 }
 @keyframes example{
@@ -49,10 +49,13 @@ header{
 }
 
 .menusymbol {
-    background: rgba(255, 69, 0,.2);
+    
     padding: 13px;
     border: none;
-    
+    animation: example1 5s linear 0s infinite alternate;  
+    -webkit-animation: example1 5s linear 0s infinite alternate;
+    -moz-animation: example1 5s linear 0s infinite alternate;
+    -o-animation: example1 5s linear 0s infinite alternate;
 }
 .menuicon{
    position: relative ;
@@ -85,10 +88,29 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgb(255, 139, 97);
     position: fixed;
     z-index: 4;
+    animation: example1 5s linear 0s infinite alternate;  
+    -webkit-animation: example1 5s linear 0s infinite alternate;
+    -moz-animation: example1 5s linear 0s infinite alternate;
+    -o-animation: example1 5s linear 0s infinite alternate;
     
+}
+@keyframes example1{
+    from{background: rgb(255, 139, 97);}
+    to{background: rgb(247, 209, 107);}
+}
+@-webkit-keyframes example1{
+    from{background: rgb(255, 139, 97);}
+    to{background:  rgb(212, 212, 97);}
+}
+@-moz-keyframes example1{
+    from{background: rgb(255, 139, 97);}
+    to{background:  rgb(212, 212, 97);}
+}
+@-o-keyframes example1{
+    from{background: rgb(255, 139, 97);}
+    to{background:  rgb(212, 212, 97);}
 }
 li.bsc { float: right;}
 a.menu {
@@ -118,7 +140,7 @@ a.menu:active{
     background-color: rgb(0, 0, 0);
 }
 #op1:hover{
-    background-color: rgb(255, 139, 97) !important;
+    background-color:inherit !important;
     
     padding-left: 20px ;
   padding-right: 20px ;
