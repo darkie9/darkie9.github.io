@@ -17,9 +17,9 @@ header{
     background-size: cover;
     background-position: center;
     animation: example 5s linear 0s infinite alternate;  
-    -webkit-animation: example 5s linear 0s infinite alternate;
-    -moz-animation: example 5s linear 0s infinite alternate;
-    -o-animation: example 5s linear 0s infinite alternate;
+    -webkit-animation: example 6s linear 0s infinite alternate;
+    -moz-animation: example 6s linear 0s infinite alternate;
+    -o-animation: example 6s linear 0s infinite alternate;
     
 }
 @keyframes example{
@@ -49,10 +49,10 @@ header{
     
     padding: 13px;
     border: none;
-    animation: example1 5s linear 0s infinite alternate;  
-    -webkit-animation: example1 5s linear 0s infinite alternate;
-    -moz-animation: example1 5s linear 0s infinite alternate;
-    -o-animation: example1 5s linear 0s infinite alternate;
+    animation: example1 6s linear 0s infinite alternate;  
+    -webkit-animation: example1 6s linear 0s infinite alternate;
+    -moz-animation: example1 6s linear 0s infinite alternate;
+    -o-animation: example1 6s linear 0s infinite alternate;
 }
 .menuicon{
    position: relative ;
