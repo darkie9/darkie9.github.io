@@ -101,13 +101,17 @@ a.menu:active{
 }
 #op1:hover{
     background-color: rgb(255, 139, 97) !important;
-    padding-left: 20px !important;
-  padding-right: 20px !important;
-  height: 40px;
+    
+    padding-left: 20px ;
+  padding-right: 20px ;
+  
+  height: 30px;
 }
 #op1:hover img {
-    position: relative;
-    bottom: 5px;
+    width: 3vw ;
+    height: 3vw ;
+   position: relative;
+   bottom: 5px;
 }
 /* intro view */
 
@@ -195,8 +199,13 @@ a.menu:active{
     }
 
 #op1:hover{
-    padding-left: 10px !important;
-  padding-right: 10px !important;
+    height: 0px;
+}
+#op1:hover img {
+    height: 25px !important;
+    width: 25px !important;
+    position: relative;
+    bottom: 7px;
 }
   
 }
