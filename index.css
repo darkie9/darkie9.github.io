@@ -337,7 +337,6 @@ bottom: 120px;
     background-image: -moz-linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),url("s5hehiscswz.jpg");
     background-image: -o-linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),url("s5hehiscswz.jpg");
     background-size: auto;
-    
 }
 .techi{
     width: 12vw;
@@ -346,7 +345,7 @@ bottom: 120px;
     background: rgba(255, 255, 255, 1);
     
  }   
-.resize{
+  .resize{
     height: 8.9vw;
     width: 8.9vw;
     
