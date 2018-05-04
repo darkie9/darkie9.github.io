@@ -16,10 +16,10 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    animation: example 6s linear 0s infinite alternate;  
-    -webkit-animation: example 6s linear 0s infinite alternate;
-    -moz-animation: example 6s linear 0s infinite alternate;
-    -o-animation: example 6s linear 0s infinite alternate;
+    animation: example 4.5s linear 0s infinite alternate;  
+    -webkit-animation: example 4.5s linear 0s infinite alternate;
+    -moz-animation: example 4.5s linear 0s infinite alternate;
+    -o-animation: example 4.5s linear 0s infinite alternate;
     
 }
 @keyframes example{
@@ -48,10 +48,10 @@ header{
 .menusymbol {
     padding: 13px;
     border: none;
-    animation: example1 6s linear 0s infinite alternate;  
-    -webkit-animation: example1 6s linear 0s infinite alternate;
-    -moz-animation: example1 6s linear 0s infinite alternate;
-    -o-animation: example1 6s linear 0s infinite alternate;
+    animation: example1 4.5s linear 0s infinite alternate;  
+    -webkit-animation: example1 4.5s linear 0s infinite alternate;
+    -moz-animation: example1 4.5s linear 0s infinite alternate;
+    -o-animation: example1 4.5s linear 0s infinite alternate;
 }
 .menuicon{
    position: relative ;
@@ -86,10 +86,10 @@ header{
     overflow: hidden;
     position: fixed;
     z-index: 4;
-    animation: example1 6s linear 0s infinite alternate;  
-    -webkit-animation: example1 6s linear 0s infinite alternate;
-    -moz-animation: example1 6s linear 0s infinite alternate;
-    -o-animation: example1 6s linear 0s infinite alternate;
+    animation: example1 4.5s linear 0s infinite alternate;  
+    -webkit-animation: example1 4.5s linear 0s infinite alternate;
+    -moz-animation: example1 4.5s linear 0s infinite alternate;
+    -o-animation: example1 4.5s linear 0s infinite alternate;
     
 }
 @keyframes example1{
@@ -389,10 +389,10 @@ bottom: 120px;
 .A{
     background-position: center;
     background-size: cover;
-    animation: example2 6s linear 0s infinite alternate;  
-    -webkit-animation: example2 6s linear 0s infinite alternate;
-    -moz-animation: example2 6s linear 0s infinite alternate;
-    -o-animation: example2 6s linear 0s infinite alternate;
+    animation: example2 4.5s linear 0s infinite alternate;  
+    -webkit-animation: example2 4.5s linear 0s infinite alternate;
+    -moz-animation: example2 4.5s linear 0s infinite alternate;
+    -o-animation: example2 4.5s linear 0s infinite alternate;
 }
 @keyframes example2{
     from{background-image: url("sigma.jpg");
